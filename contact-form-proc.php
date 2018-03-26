@@ -17,14 +17,15 @@ $phone = $_POST["phone"];
 $startdate = $_POST["startdate"];
 $enddate = $_POST["enddate"];
 
-$to = "info@shellssgi.com,shells1072@gmail.com";
+$to = "info@shellssgi.com";
 
-$subject = "New Form Submission!";
+$subject = "New Reservation Form Submission!";
 
 // $message = $fname+" "+$lname+"\n"
 //     +$email+"\n"+$phone;
 
-$message = "Name: $fname $lname
+$message = "A new reservation has been made!
+    \r\nName: $fname $lname
     \r\nEmail: $email
     \r\nPhone: $phone
     \r\nArrival Date: $startdate
